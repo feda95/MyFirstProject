@@ -1,13 +1,18 @@
 def exchange_values():
+    DicList = {'blue': '0000FF', 'white': '00FF00', 'black': 'FFFF00', 'yellow': 'FF0000', 'green': 'FFFFFF',
+               'red': '000000'}
+
+    print(DicList.items())
+
+    x = DicList['blue'], ['white']
+    print(x)
+    y = DicList.keys()
+    print(y)
+    y = DicList.values()
+    print(y)
 
     lista = ['blue', 'white', 'black', 'yellow', 'green', 'red']
-    lista1 = ['0000FF', '00FF00', 'FFFF00', 'FF0000', 'FFFFFF', '000000']
-
-    lista, lista1 = lista1, lista
-
-    print(lista)
-
-    print(lista1)
 
 
 exchange_values()
+
